@@ -1,0 +1,7 @@
+﻿CREATE TABLE `users`.`user` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `sername` VARCHAR(45) NOT NULL,
+  `login` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
